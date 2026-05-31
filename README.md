@@ -1,7 +1,7 @@
 # Microestructura de Mercado Intradía: Optimización Horaria en la Ejecución de Transacciones USDT/VES
 
 ### 1. Pregunta de Investigación
-¿La cotización del USDT en los mercados P2P locales fluctúa de manera puramente estocástica (aleatoria) a lo largo de las 24 horas del día, o existen patrones horarios estacionales derivados de los flujos de liquidez institucional y bancaria?
+¿La cotización del USDT en los mercados P2P locales fluctúa de manera puramente estocástica (aleatoria) a lo largo de las 24 horas del día?
 
 ### 2. Objetivo
 Identificar y mapear las ventanas horarias y diarias estadísticamente óptimas para la compra y venta de USDT/VES, minimizando el costo de deslizamiento (*slippage*) transaccional.

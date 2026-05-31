@@ -19,6 +19,3 @@ Los resultados demuestran la existencia de ineficiencias horarias estables asoci
 ### 5. Limitaciones del Análisis
 * **Dinámica de spreads cambiantes:** El modelo analiza la desviación del precio medio, pero no incorpora la profundidad de las puntas (*order book depth*).
 * **Estacionalidad macro exógena:** Choques imprevistos en la liquidez monetaria de la banca pueden generar distorsiones temporales sobre los patrones aquí expuestos.
-
----
-**Contacto Institucional:** [Tu Correo de Proton o Gmail Nuevo]

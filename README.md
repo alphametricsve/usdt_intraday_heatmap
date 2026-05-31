@@ -14,8 +14,6 @@ La muestra utilizada para este desarrollo comprende el registro histórico trans
 
 El script aplica un proceso de *detrending* calculando una media móvil centrada de 24 horas para aislar el factor de la devaluación macro. Posteriormente, evalúa estadísticamente el porcentaje de desviación de cada franja horaria respecto a dicha mediana diaria. 
 
-Los resultados demuestran la existencia de ineficiencias horarias estables y correlacionadas directamente con los flujos transaccionales y los horarios operativos bancarios tradicionales.
-
 ![Mapa de Calor Intradía](mapa_calor_compraventa_usdt.png)
 
 ### 5. Limitaciones del Análisis

@@ -10,9 +10,11 @@ Identificar y mapear las ventanas horarias y diarias estadísticamente óptimas 
 Para las tesorerías corporativas que gestionan flujos de caja operativos en economías multimoneda, ejecutar órdenes en momentos de distorsión de precios genera ineficiencias de costos ocultos. Optimizar el *timing* de ejecución representa un ahorro marginal de alto impacto corporativo al manejar volúmenes transaccionales medianos y altos.
 
 ### 4. Metodología y Resultados
-El script aplica un proceso de *detrending* calculando una media móvil centrada de 24 horas para aislar el factor de la devaluación macro. Posteriormente, evalúa el porcentaje de desviación de cada hora respecto a dicha mediana. 
+La muestra utilizada para este desarrollo comprende el registro histórico transaccional extraído de **Binance P2P** como principal referencia de liquidez en el entorno local. 
 
-Los resultados demuestran la existencia de ineficiencias horarias estables asociadas a los horarios operativos bancarios tradicionales del entorno local.
+El script aplica un proceso de *detrending* calculando una media móvil centrada de 24 horas para aislar el factor de la devaluación macro. Posteriormente, evalúa estadísticamente el porcentaje de desviación de cada franja horaria respecto a dicha mediana diaria. 
+
+Los resultados demuestran la existencia de ineficiencias horarias estables y correlacionadas directamente con los flujos transaccionales y los horarios operativos bancarios tradicionales.
 
 ![Mapa de Calor Intradía](mapa_calor_compraventa_usdt.png)
 
